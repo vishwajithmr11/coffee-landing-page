@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './components/Hero';
 import FeaturedProducts from './components/FeaturedProducts';
+import AboutUs from './components/AboutUs';
 import './index.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Hero />
       <FeaturedProducts />
+      <AboutUs />
       {/* Other sections will go here */}
     </div>
   );
