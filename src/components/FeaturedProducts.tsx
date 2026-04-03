@@ -1,4 +1,3 @@
-/* src/components/FeaturedProducts.tsx */
 import React from 'react';
 
 const products = [
@@ -6,19 +5,19 @@ const products = [
     id: 1,
     name: 'Ethiopian Yirgacheffe',
     description: 'Bright, floral, and citrusy with a clean finish.',
-    image: 'https://images.unsplash.com/photo-1509042239860-f550ce7103ab?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://bucket-production-1ed0.up.railway.app/assets/store_605bfbec-f04d-4263-adf3-5d525e8eea75/products/1766766070392-mystic_moon_set_1.png',
   },
   {
     id: 2,
     name: 'Columbian Supremo',
     description: 'Rich, bold, and chocolaty with a nutty undertone.',
-    image: 'https://images.unsplash.com/photo-1510972527921-ceb29d592631?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://bucket-production-1ed0.up.railway.app/assets/store_605bfbec-f04d-4263-adf3-5d525e8eea75/products/1766766070392-mystic_moon_set_1.png',
   },
   {
     id: 3,
     name: 'Sumatran Mandheling',
     description: 'Earthy, low-acid, and complex with a lingering finish.',
-    image: 'https://images.unsplash.com/photo-1507963283580-ff6db975bd2e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://bucket-production-1ed0.up.railway.app/assets/store_605bfbec-f04d-4263-adf3-5d525e8eea75/products/1766766070392-mystic_moon_set_1.png',
   },
 ];
 
