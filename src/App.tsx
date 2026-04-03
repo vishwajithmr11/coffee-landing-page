@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from './components/Hero';
 import FeaturedProducts from './components/FeaturedProducts';
 import AboutUs from './components/AboutUs';
+import CallToAction from './components/CallToAction';
+import Footer from './components/Footer';
 import './index.css';
 
 function App() {
@@ -10,7 +12,8 @@ function App() {
       <Hero />
       <FeaturedProducts />
       <AboutUs />
-      {/* Other sections will go here */}
+      <CallToAction />
+      <Footer />
     </div>
   );
 }
