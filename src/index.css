@@ -151,3 +151,62 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   font-size: 1em;
 }
+
+/* About Us Section */
+.about-us {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.about-us .container {
+  display: flex;
+  flex-direction: row; /* Default for larger screens */
+  align-items: center;
+  gap: 50px;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-us .container {
+    flex-direction: column; /* Stack on smaller screens */
+  }
+  .hero-content h1 {
+    font-size: 2.5em;
+  }
+  .hero-content p {
+    font-size: 1.2em;
+  }
+  .featured-products h2, .about-content h2 {
+    font-size: 2.5em;
+  }
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
