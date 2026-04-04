@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f2ee;
+    color: #333;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1511920170033-f8ad7ce3fcc7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6c200;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-us {
+    background-color: #fff;
+}
+
+.about-us h2, .menu-preview h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #5a3e36;
+}
+
+.about-us p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.menu-preview {
+    background-color: #e0d8d0;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+}
+
+.item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #5a3e36;
+}
+
+.item p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.9em;
+}
